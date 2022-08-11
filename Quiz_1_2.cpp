@@ -6,11 +6,12 @@ int train_1[30]={0,0,0,0,0,1,1,1,1,1,0,0,0,0,0,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0};
 int train_2[25]={1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,0,0,0,0,0};
 int train_3[5]={0,0,0,0,0};
 //Functions
-template <size_t n>
-int find_size(int (&arr)[n]){
-    return n;
-}
 void available_seats(int train[],int size) {
+    /*
+     Funcion que devuelve una lista con los asientos disponibles del tren.
+     Parametros: int train[]: arreglo de tipo entero; int size: tamaño del arreglo.
+     Retorna: void.
+     */
     int count_aux=0;
     int count_seats;
     bool found= false;
@@ -54,8 +55,8 @@ void available_seats(int train[],int size) {
 }
 //Main
 int main() {
-    available_seats(train_1, find_size(train_1));
-    available_seats(train_2, find_size(train_2));
-    available_seats(train_3, find_size(train_3));
+    available_seats(train_1, sizeof(train_1)/4);
+    available_seats(train_2, sizeof(train_2)/4);
+    available_seats(train_3, sizeof(train_3)/4);
     return 0;
 }
