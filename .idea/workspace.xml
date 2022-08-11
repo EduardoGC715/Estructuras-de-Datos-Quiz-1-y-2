@@ -11,9 +11,7 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bac6cbb6-c060-4176-9075-b5720fb53560" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/Quiz_1_2.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Quiz_1_2.cpp" afterDir="false" />
-    </list>
+    <list default="true" id="bac6cbb6-c060-4176-9075-b5720fb53560" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -81,7 +79,7 @@
       <updated>1660190069262</updated>
       <workItem from="1660190075042" duration="262000" />
       <workItem from="1660233287590" duration="19688000" />
-      <workItem from="1660256897365" duration="804000" />
+      <workItem from="1660256897365" duration="885000" />
     </task>
     <servers />
   </component>
